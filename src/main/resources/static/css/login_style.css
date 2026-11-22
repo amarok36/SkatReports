@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.header-top {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.login-box {
+    margin-top: 25px;
+    width: 380px;
+    border: 1px solid #7b95b7;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.login-header {
+    margin: 3px;
+    background-color: #4a7ebb;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.login-body {
+    padding: 25px 25px 35px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+}
+
+.form-row label {
+    width: 70px;
+    font-size: 14px;
+    color: #333333;
+    text-align: right;
+}
+
+.form-row input {
+    flex-grow: 1;
+    max-width: 180px;
+    height: 25px;
+    border: 1px solid #7b95b7;
+    border-radius: 2px;
+    padding: 0 5px;
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+    margin-left: 10px;
+}
+
+.form-row input:focus {
+    border-color: #4a7ebb;
+}
+
+.login-footer {
+    border-top: 1px solid #7b95b7;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f9f9f9;
+}
+
+.login-btn {
+    background-color: #e3ecf5;
+    border: 1px solid #7b95b7;
+    border-radius: 2px;
+    padding: 4px 25px;
+    font-size: 13px;
+    font-family: inherit;
+    color: #000000;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color:#d2e0ee;
+}
+
+.login-btn:active {
+    background-color: #9db8d0;
+}
+
+.bottom-links {
+    margin-top: 60px;
+    font-size: 14px;
+    color: #38618f;
+}
+
+.bottom-links a {
+    color: #38618f;
+    text-decoration: underline;
+}
+
+.bottom-links a:hover {
+    text-decoration: none;
+}
+
+.bottom-info {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #333333;
+}
+
