@@ -6,3 +6,9 @@ spring:
     url: jdbc:postgresql://localhost:5432/skat_db
     username: postgres
     password: postgres
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    default-schema: public
+    schemas: public

@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS positions (
+    id BIGSERIAL PRIMARY KEY,
+    title VARCHAR(25) NOT NULL
+    );
